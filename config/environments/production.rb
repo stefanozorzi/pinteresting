@@ -91,8 +91,5 @@ Rails.application.configure do
       :region => ENV['AWS_REGION']
     }
   }
-  Aws.config.update({
-  region: 'us-west-2',
-  credentials: Aws::Credentials.new('akid', 'secret'),
-})
+  
 end
