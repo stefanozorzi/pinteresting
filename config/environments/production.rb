@@ -80,6 +80,7 @@ Rails.application.configure do
   # Required for heroku
   # add real hosting 
   config.action_mailer.default_url_options = { host: 'stefano-pinteresting.herokuapp.com/ ' }
+<<<<<<< HEAD
 
   # Sets paperclip to upload images on S3
   config.paperclip_defaults = {
@@ -93,4 +94,6 @@ Rails.application.configure do
   }
 
   
+=======
+>>>>>>> parent of 91fd1db... add amazon s3 for paperclip upload to heroku
 end
