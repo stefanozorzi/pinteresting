@@ -19,6 +19,7 @@ gem 'bootstrap-sass', '~> 3.3.5'
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
+gem 'jquery-turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
@@ -29,6 +30,8 @@ gem 'devise', '3.5.2'
 gem 'paperclip', github: 'thoughtbot/paperclip'
 
 gem 'aws-sdk', '~> 2'
+
+gem 'masonry-rails', '~> 0.2.0'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
